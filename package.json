@@ -1,6 +1,6 @@
 {
   "name": "ttrentsou-task-queue",
-  "version": "1.0.0", 
+  "version": "1.0.1",
   "description": "Build a package that provides a lightweight task queue system for Node.js applications. This could include features like task prioritization, concurrency control, and support for distributed task processing using technologies like Redis or RabbitMQ",
   "main": "./src/index.js",
   "scripts": {
@@ -11,10 +11,13 @@
     "url": "https://github.com/ttrentsou/ttrentsou-task-queue.git"
   },
   "keywords": [
-    "", 
+    "",
     "",
     ""
   ],
   "author": "ttrentsou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ttrentsou-errorlogger": "^1.0.1"
+  }
 }
